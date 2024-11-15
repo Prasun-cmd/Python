@@ -1,0 +1,11 @@
+import pdfplumber
+
+pdf_file = "ProbabilityStatistics_for_EngineersScientists(9th_Edition)_Walpole.pdf"
+data_list = []
+
+with pdfplumber.open(pdf_file) as pdf:
+    for page in pdf.pages:
+        text = page.extract_text()
+        data_list.append(text)
+
+print(data_list)
