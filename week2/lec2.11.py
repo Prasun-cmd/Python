@@ -6,6 +6,14 @@
 print(calendar.calendar(2024)) '''
 
 from calendar import* # here calander lib in import for below code so we doesn't require calander word 
-print(calendar(1))
-
+print(calendar(2024))
+print(month(2024,1))
 #* is used to use all the feature if we write only month or calander we only use this only
+
+print(month(2024,3))
+import calendar as c
+print(c.month(2024,4))
+
+from random import*
+print(random())
+print(randrange(1,7))

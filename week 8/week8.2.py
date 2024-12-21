@@ -1,0 +1,11 @@
+f=open('mytext.txt','w')
+f.write('sudarshan')
+f.write('default')
+f.write('\n')
+f.write('my name ')
+f.write('google map')
+f.close()
+
+s=open('mytext.txt','r')
+p=s.read()
+print(p)

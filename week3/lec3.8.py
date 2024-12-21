@@ -1,6 +1,6 @@
 # more on range
-for i in range(1,11,2): #range(intial,final,steps) steps means how much steps it take
-    print("Hello")
+for i in range(11,0,-1): #range(intial,final,steps) steps means how much steps it take
+    print(i,"Hello")
 
 country="India"    
 

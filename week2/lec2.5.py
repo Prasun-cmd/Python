@@ -2,7 +2,7 @@
 
 print('It\'s a beautiful day')
 print("we are from \"IIT\" Madras")
-print('Iam Prasun. Iam from Bihar.')
+print('I\'m Prasun. Iam from Bihar.')
 print('Iam Prasun.\t Iam from Bihar.')
 print('Iam Prasun. \nIam from Bihar.')  
 

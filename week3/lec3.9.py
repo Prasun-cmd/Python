@@ -12,7 +12,7 @@ print('today date is',d,m,y)
 print('today date is',d,m,y,sep='/')
 print('today date is ',end='')
 print(d,m,y, sep='/')
-
+print('r')
 num=int(input())
 for i in range(1,11):
     #print(num,'X',i,'=',num*i)
@@ -41,3 +41,6 @@ print('{0:5d}'.format(11))
 print('{0:5d}'.format(111))
 print('{0:5d}'.format(1111))
 print('{0:5d}'.format(11111))
+
+print('{0:5s}'.format('*'))
+print('{0:5s}'.format('**'))
